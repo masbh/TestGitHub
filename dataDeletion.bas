@@ -18,6 +18,7 @@ Dim rsData As DAO.Recordset
     Set rsData = CurrentDb.OpenRecordset(strSQL)
     If rsData.RecordCount = 0 Then
         Data_exists = False
+	msgbox "There is no data"
     Else
         Data_exists = True
     End If
