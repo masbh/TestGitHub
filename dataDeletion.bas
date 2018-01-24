@@ -5,6 +5,8 @@ Option Explicit
 '====================================================
 '---------------DATA Deletion FUNCTIONS----------------
 'Added a new comment
+'Added some new comment since now i am working on a branch
+'Added further comments
 '====================================================
 
 Public Function Data_exists(firmID As Integer, year As Integer, tblName As String) As Boolean
